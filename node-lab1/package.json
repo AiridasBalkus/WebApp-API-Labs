@@ -1,0 +1,25 @@
+{
+  "name": "node-lab01",
+  "version": "1.0.0",
+  "description": "node lab01",
+  "homepage": "https://github.com/AiridasBalkus/WebApp-API-Labs#readme",
+  "bugs": {
+    "url": "https://github.com/AiridasBalkus/WebApp-API-Labs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiridasBalkus/WebApp-API-Labs.git"
+  },
+  "license": "ISC",
+  "author": "AiridasBalkus",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^3.1.10"
+  }
+}
