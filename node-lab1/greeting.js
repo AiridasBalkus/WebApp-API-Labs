@@ -1,5 +1,5 @@
 const greeting = {
-    en:"Hellow World!",
+    en:"Hello World!",
     fr:"Bonjour!",
     lt:"Labas",
     ga: "Dia Dhuit",
