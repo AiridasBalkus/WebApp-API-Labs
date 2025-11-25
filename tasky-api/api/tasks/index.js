@@ -6,7 +6,8 @@ const router = express.Router(); // eslint-disable-line
 
 // Get all tasks
 router.get('/', async (req, res) => {
-    const tasks = await Task.find().populate('userId', 'username');
+    const tasks = await Task.find({ userId: req.user._id })
+    .populate('userId', 'username');
     res.status(200).json(tasks);
 });
 // create a task

@@ -30,8 +30,6 @@ router.post('/', asyncHandler(async (req, res) => {
     }
 }));
 
-// ... Code as before
-
 async function registerUser(req, res) {
     // Add input validation logic here
     await User.create(req.body);
