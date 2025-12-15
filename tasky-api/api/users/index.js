@@ -36,7 +36,6 @@ router.post('/', asyncHandler(async (req, res) => {
 
 async function registerUser(req, res) {
     const { username, password } = req.body;
-
     if (!passwordRegex.test(password)) {
         return res.status(400).json({
             success: false,
